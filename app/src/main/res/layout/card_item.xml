@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imgProduct"
+            android:src="@drawable/tv"/>
+
+        <LinearLayout
+            android:layout_width="211dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of product" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price of product" />
+
+            <TextView
+                android:id="@+id/txtDescr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Describe" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_delete" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
